@@ -1,0 +1,10 @@
+python manage.py runserver
+
+python manage.py runserver + IP:端口 --默认本机8000端口启动
+
+python manage.py makemigrations 
+
+python manage.py migrate
+
+CREATE DATABASE test DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
